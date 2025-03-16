@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Eingabefeld für Kreditsumme -->
+    <EditText
+        android:id="@+id/loanAmountInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kreditsumme (EUR)"
+        android:inputType="numberDecimal" />
+
+    <!-- Eingabefeld für Laufzeit -->
+    <EditText
+        android:id="@+id/loanTermInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Laufzeit (Jahre)"
+        android:inputType="number" />
+
+    <!-- Eingabefeld für Zins -->
+    <EditText
+        android:id="@+id/interestRateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Zins (%)"
+        android:inputType="numberDecimal" />
+
+    <!-- Eingabefeld für Betreff -->
+    <EditText
+        android:id="@+id/loanPurposeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Betreff"
+        android:inputType="text" />
+
+    <!-- Button zur Berechnung -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Berechnen"
+        android:layout_marginTop="16dp" />
+
+    <!-- TextView zur Anzeige des Ergebnisses -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Zurück-Button -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zurück"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

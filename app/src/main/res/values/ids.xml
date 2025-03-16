@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etFirstname" type="id" />
+    <item name="etLastname" type="id" />
+    <item name="etEmail" type="id" />
+    <item name="etPassword" type="id" />
+    <item name="etUsername" type="id" />
+    <item name="etLastName" type="id" />
+    <item name="etFirstName" type="id" />
+    <item name="buttonBerechnen" type="id" />
+    <item name="editTextBetreff" type="id" />
+    <item name="editTextBetrag" type="id" />
+    <item name="editTextLaufzeit" type="id" />
+    <item name="editTextZinsen" type="id" />
+    <item name="btnGoToCalculator" type="id" />
+    <item name="btnShowPreviousLoans" type="id" />
+    <item name="previousLoansLayout" type="id" />
+    <item name="etLoanAmount" type="id" />
+    <item name="etLoanPurpose" type="id" />
+    <item name="btnCalculate" type="id" />
+    <item name="btnBack" type="id" />
+</resources>

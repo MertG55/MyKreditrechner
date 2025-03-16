@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Textfarben -->
+    <color name="black">#FF000000</color> <!-- Schwarzer Text -->
+    <color name="white">#FFFFFFFF</color> <!-- Weißer Text -->
+    <color name="primary_text">#212121</color> <!-- Dunkler Text -->
+    <color name="secondary_text">#757575</color> <!-- Hellerer Text -->
+
+    <!-- Hintergrundfarben -->
+    <color name="background">#F5F5F5</color> <!-- Hellgrauer Hintergrund -->
+    <color name="primary_background">#FFFFFF</color> <!-- Weißer Hintergrund -->
+    <color name="secondary_background">#E0E0E0</color> <!-- Hellgrauer Hintergrund für Sekundäre Bereiche -->
+
+    <!-- Akzentfarben -->
+    <color name="primary_accent">#6200EE</color> <!-- Primäre Akzentfarbe (Lila) -->
+    <color name="secondary_accent">#03DAC5</color> <!-- Sekundäre Akzentfarbe (Türkis) -->
+
+    <!-- Buttons und Interaktive Farben -->
+    <color name="button_color">#6200EE</color> <!-- Akzentfarbe für Buttons -->
+    <color name="button_text">#FFFFFF</color> <!-- Textfarbe für Buttons -->
+
+    <!-- Hauptfarbe -->
+    <color name="colorPrimary">#6200EE</color> <!-- Lila für die Hauptfarbe -->
+</resources>
